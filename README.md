@@ -53,6 +53,11 @@
 
 4. Restart Prism Launcher, then open global settings. In the `Launcher` section, click the `User Interface` tab and under the `Colors` dropdown select the Catppuccin theme you downloaded. Press the `Close` button and the theme will be applied.
 
+## FAQ
+
+- Q: "Why isn't (this) themed?"
+- A: Unfortunately some sections of Prism Launcher cannot be themed due to Qt using them.
+
 ## 💝 Thanks to
 
 - [moisty](https://github.com/Mqisty)
