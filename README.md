@@ -38,18 +38,18 @@
 
 1. Download your preferred style:
 
-- 🌻 [Latte](./themes/Latte)
-- 🪴 [Frappe](./themes/Frappe)
-- 🌺 [Macchiato](./themes/Macchiato)
-- 🌿 [Mocha](./themes/Mocha)
+- 🌻 [Latte](./themes/Latte/Catppuccin-Latte.zip)
+- 🪴 [Frappe](./themes/Frappe/Catppuccin-Frappe.zip)
+- 🌺 [Macchiato](./themes/Macchiato/Catppuccin-Macchiato.zip)
+- 🌿 [Mocha](./themes/Mocha/Catppuccin-Mocha.zip)
 
 2. Open your local Prism Launcher Directory:
-- Windows: `%appdata%\PrismLauncher\themes\custom`
-- Linux: `~/.local/share/PrismLauncher/themes/custom`
-- Mac: `~/Library/Application Support/PrismLauncher/themes/custom`
-- Flatpak: `~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/themes/custom`
+- Windows: `%appdata%\PrismLauncher\themes`
+- Linux: `~/.local/share/PrismLauncher/themes`
+- Mac: `~/Library/Application Support/PrismLauncher/themes`
+- Flatpak: `~/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/themes`
 
-3. Replace `theme.json` and `themeStyle.css` with the Catppuccin theme of your choice.
+3. Unzip the Catppuccin theme of your choice in the `themes` folder.
 
 4. Restart Prism Launcher, then open global settings. In the `Launcher` section, click the `User Interface` tab and under the `Colors` dropdown select the Catppuccin theme you downloaded. Press the `Close` button and the theme will be applied.
 
