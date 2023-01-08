@@ -38,10 +38,10 @@
 
 1. Download your preferred style:
 
-- 🌻 [Latte](./themes/Latte/Catppuccin-Latte.zip)
-- 🪴 [Frappe](./themes/Frappe/Catppuccin-Frappe.zip)
-- 🌺 [Macchiato](./themes/Macchiato/Catppuccin-Macchiato.zip)
-- 🌿 [Mocha](./themes/Mocha/Catppuccin-Mocha.zip)
+- 🌻 [Latte](https://github.com/catppuccin/prismlauncher/raw/main/themes/Latte/Catppuccin-Latte.zip)
+- 🪴 [Frappe](https://github.com/catppuccin/prismlauncher/raw/main/themes/Frappe/Catppuccin-Frappe.zip)
+- 🌺 [Macchiato](https://github.com/catppuccin/prismlauncher/raw/main/themes/Macchiato/Catppuccin-Macchiato.zip)
+- 🌿 [Mocha](https://github.com/catppuccin/prismlauncher/raw/main/themes/Mocha/Catppuccin-Mocha.zip)
 
 2. Open your local Prism Launcher Directory:
 - Windows: `%appdata%\PrismLauncher\themes`
