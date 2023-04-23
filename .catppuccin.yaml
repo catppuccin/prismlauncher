@@ -1,0 +1,25 @@
+app_name: prismlauncher 
+binary_name: prismlauncher
+installation: 
+  location:
+    macos: ~/Library/Application Support/PrismLauncher/
+    linux: ~/.local/share/PrismLauncher/
+    windows: "%appdata%/PrismLauncher/"
+  flavours: 
+    all:
+      default:
+        - themes/
+    latte:
+      default: 
+        - themes/Latte/Catppuccin-Latte.zip
+    frappe:
+      default:       
+        - themes/Frappe/Catppuccin-Frappe.zip
+    macchiato:
+      default:
+        - themes/Macchiato/Catppuccin-Macchiato.zip
+    mocha:
+      default:
+        - themes/Mocha/Catppuccin-Mocha.zip
+  to: themes/ 
+  one_flavour: false
