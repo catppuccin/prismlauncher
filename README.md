@@ -34,6 +34,14 @@
 <img src="assets/mocha.webp"/>
 </details>
 
+## Important Linux Info
+On linux, it is easier and generally better to change your global QT6 theme rather than using
+Prism Launcher's theme system.
+Changing your QT6 theme to Catppuccin and using the `System` option in the `Widgets` section of `User Interface`
+makes Prism Launcher look more natural with the rest of your QT6 applications, and changes portions of
+Prism Launcher that this theme cannot.
+If you are on Linux, please [Check this out](https://github.com/catppuccin/qt5ct)
+
 ## Installation
 
 1. Download your preferred style:
@@ -51,7 +59,7 @@
 
 3. Unzip the Catppuccin theme of your choice in the `themes` folder.
 
-4. Restart Prism Launcher, then open global settings. In the `Launcher` section, click the `User Interface` tab and under the `Colors` dropdown select the Catppuccin theme you downloaded. Press the `Close` button and the theme will be applied.
+4. Restart Prism Launcher, then open global settings. In the `Launcher` section, click the `User Interface` tab and under the `Widgets` dropdown select the Catppuccin theme you downloaded. Press the `Close` button and the theme will be applied.
 
 ## FAQ
 
