@@ -36,13 +36,7 @@
 
 ## Installation
 
-1. Download your preferred style:
-
-- 🌻 [Latte](https://github.com/catppuccin/prismlauncher/raw/main/themes/Latte/Catppuccin-Latte.zip)
-- 🪴 [Frappe](https://github.com/catppuccin/prismlauncher/raw/main/themes/Frappe/Catppuccin-Frappe.zip)
-- 🌺 [Macchiato](https://github.com/catppuccin/prismlauncher/raw/main/themes/Macchiato/Catppuccin-Macchiato.zip)
-- 🌿 [Mocha](https://github.com/catppuccin/prismlauncher/raw/main/themes/Mocha/Catppuccin-Mocha.zip)
-
+1. Download your preferred style from the [latest release](https://github.com/PrismLauncher/Themes/releases):
 2. Open your local Prism Launcher Directory:
 - Windows: `%appdata%\PrismLauncher\themes`
 - Linux: `~/.local/share/PrismLauncher/themes`
@@ -60,6 +54,11 @@
 ---
 - Q: "Can I change the color?"
 - A: If you would like to change the accent/highlighted color, you can do this by modifying the `theme.json` file. Then editing the `"Highlight"` value to any color you prefer. You can also do this to other values if you would like.
+
+## Contribution
+
+The prismlauncher port is upstreamed at [PrismLauncher/Themes](https://github.com/PrismLauncher/Themes/releases). We maintain
+the sources here, and will PR into upstream if they change so that they can re-release their theme set.
 
 ## 💝 Thanks to
 
