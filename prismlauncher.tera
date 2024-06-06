@@ -1,0 +1,52 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - variant: ["theme.json", "themeStyle.css", "theme.json.license"]
+    - flavor
+    - accent
+  filename: "themes/{{flavor.identifier}}/{{accent}}/{{variant}}"
+tooltip_color: "dee5fc"
+file_copyright_text: "2022 Catppuccin"
+license_identifier: "MIT"
+---
+{%- set palette = flavor.colors -%}
+{%- if variant == "theme.json" -%}
+{
+    "colors": {
+        "AlternateBase": "#{{palette.base.hex}}",
+        "Base": "#{{palette.mantle.hex}}",
+        "BrightText": "#{{palette.subtext1.hex}}",
+        "Button": "#{{palette.surface0.hex}}",
+        "ButtonText": "#{{palette.text.hex}}",
+        "Highlight": "#{{palette[accent].hex}}",
+        "HighlightedText": "#{{palette.base.hex}}",
+        "Link": "#{{palette.lavender.hex}}",
+        "Text": "#{{palette.text.hex}}",
+        "ToolTipBase": "#{{tooltip_color}}",
+        "ToolTipText": "#{{tooltip_color}}",
+        "Window": "#{{palette.base.hex}}",
+        "WindowText": "#{{palette.subtext1.hex}}",
+        "fadeAmount": 0.5,
+        "fadeColor": "#{{palette.overlay0.hex}}"
+    },
+    "name": "Catppuccin {{flavor.name}}",
+    "widgets": "Fusion"
+}
+{%- elif variant == "themeStyle.css" -%}
+/*
+ * SPDX-FileCopyrightText: {{file_copyright_text}}
+ *
+ * SPDX-License-Identifier: {{license_identifier}}
+ */
+
+QToolTip { 
+    color: #{{palette.text.hex}};
+    background-color: #{{palette.surface0.hex}};
+    border: 1px solid #{{palette.surface0.hex}}
+}
+{%- else -%}
+SPDX-FileCopyrightText: {{file_copyright_text}}
+
+SPDX-License-Identifier: {{license_identifier}}
+{%- endif -%}
