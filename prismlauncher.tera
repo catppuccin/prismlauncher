@@ -1,6 +1,6 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: 2.3.0
   matrix:
     - variant: ["theme.json", "themeStyle.css", "theme.json.license"]
     - flavor
@@ -10,25 +10,24 @@ tooltip_color: "dee5fc"
 file_copyright_text: "2022 Catppuccin"
 license_identifier: "MIT"
 ---
-{%- set palette = flavor.colors -%}
 {%- if variant == "theme.json" -%}
 {
     "colors": {
-        "AlternateBase": "#{{palette.base.hex}}",
-        "Base": "#{{palette.mantle.hex}}",
-        "BrightText": "#{{palette.subtext1.hex}}",
-        "Button": "#{{palette.surface0.hex}}",
-        "ButtonText": "#{{palette.text.hex}}",
-        "Highlight": "#{{palette[accent].hex}}",
-        "HighlightedText": "#{{palette.base.hex}}",
-        "Link": "#{{palette.lavender.hex}}",
-        "Text": "#{{palette.text.hex}}",
+        "AlternateBase": "#{{base.hex}}",
+        "Base": "#{{mantle.hex}}",
+        "BrightText": "#{{subtext1.hex}}",
+        "Button": "#{{surface0.hex}}",
+        "ButtonText": "#{{text.hex}}",
+        "Highlight": "#{{flavor.colors[accent].hex}}",
+        "HighlightedText": "#{{base.hex}}",
+        "Link": "#{{lavender.hex}}",
+        "Text": "#{{text.hex}}",
         "ToolTipBase": "#{{tooltip_color}}",
         "ToolTipText": "#{{tooltip_color}}",
-        "Window": "#{{palette.base.hex}}",
-        "WindowText": "#{{palette.subtext1.hex}}",
+        "Window": "#{{base.hex}}",
+        "WindowText": "#{{subtext1.hex}}",
         "fadeAmount": 0.5,
-        "fadeColor": "#{{palette.overlay0.hex}}"
+        "fadeColor": "#{{overlay0.hex}}"
     },
     "name": "Catppuccin {{flavor.name}}",
     "widgets": "Fusion"
@@ -41,9 +40,9 @@ license_identifier: "MIT"
  */
 
 QToolTip { 
-    color: #{{palette.text.hex}};
-    background-color: #{{palette.surface0.hex}};
-    border: 1px solid #{{palette.surface0.hex}}
+    color: #{{text.hex}};
+    background-color: #{{surface0.hex}};
+    border: 1px solid #{{surface0.hex}}
 }
 {%- else -%}
 SPDX-FileCopyrightText: {{file_copyright_text}}
