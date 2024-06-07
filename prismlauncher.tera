@@ -47,4 +47,4 @@ QToolTip {
 SPDX-FileCopyrightText: {{file_copyright_text}}
 
 SPDX-License-Identifier: {{license_identifier}}
-{%- endif -%}
+{% endif %}
