@@ -51,9 +51,6 @@
 
 - Q: "Why isn't (this) themed?"
 - A: Unfortunately some sections of Prism Launcher cannot be themed due to Qt using them.
----
-- Q: "Can I change the color?"
-- A: If you would like to change any colors, you can do this by modifying the `theme.json` file. Then editing the the values to any color you prefer.
 
 ## Contribution
 
