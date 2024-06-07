@@ -6,7 +6,6 @@ whiskers:
     - flavor
     - accent
   filename: "themes/{{flavor.identifier}}/{{accent}}/{{variant}}"
-tooltip_color: "dee5fc"
 file_copyright_text: "2022 Catppuccin"
 license_identifier: "MIT"
 ---
@@ -22,8 +21,8 @@ license_identifier: "MIT"
         "HighlightedText": "#{{base.hex}}",
         "Link": "#{{lavender.hex}}",
         "Text": "#{{text.hex}}",
-        "ToolTipBase": "#{{tooltip_color}}",
-        "ToolTipText": "#{{tooltip_color}}",
+        "ToolTipBase": "#{{crust.hex}}",
+        "ToolTipText": "#{{text.hex}}",
         "Window": "#{{base.hex}}",
         "WindowText": "#{{subtext1.hex}}",
         "fadeAmount": 0.5,
