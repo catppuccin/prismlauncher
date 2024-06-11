@@ -35,12 +35,12 @@
 </details>
 
 ## Important Linux Info
-On linux, it is easier and generally better to change your global QT6 theme rather than using
+On Linux, it is easier and generally better to change your global QT6 theme rather than using
 Prism Launcher's theme system.
 Changing your QT6 theme to Catppuccin and using the `System` option in the `Widgets` section of `User Interface`
 makes Prism Launcher look more natural with the rest of your QT6 applications, and changes portions of
 Prism Launcher that this theme cannot.
-If you are on Linux, please [Check this out](https://github.com/catppuccin/qt5ct)
+If you are on Linux, please [check this out](https://github.com/catppuccin/qt5ct).
 
 ## Installation
 
