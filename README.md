@@ -59,9 +59,6 @@ If you are on Linux, please [check this out](https://github.com/catppuccin/qt5ct
 
 - Q: "Why isn't (this) themed?"
 - A: Unfortunately some sections of Prism Launcher cannot be themed due to Qt using them.
----
-- Q: "Can I change the color?"
-- A: If you would like to change the accent/highlighted color, you can do this by modifying the `theme.json` file. Then editing the `"Highlight"` value to any color you prefer. You can also do this to other values if you would like.
 
 ## Contribution
 
