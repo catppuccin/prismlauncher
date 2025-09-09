@@ -1,0 +1,35 @@
+---
+whiskers:
+  version: ^2.5.1
+  matrix:
+    - variant: ["README.md", "preview.png.license"]
+    - flavor
+  filename: "upstream/Catppuccin-{{flavor.identifier | capitalize}}/{{variant}}"
+file_copyright_text: "2025 Catppuccin"
+license_identifier: "MIT"
+---
+{%- set name = "Catppuccin " ~ flavor.name ~ " Mauve" -%}
+{%- if variant == "README.md" -%}
+<!--
+SPDX-FileCopyrightText: {{file_copyright_text}}
+
+SPDX-License-Identifier: {{license_identifier}}
+-->
+
+{{name}}
+---
+[{{name}}](https://github.com/catppuccin/catppuccin) for Prism Launcher.
+
+## Preview
+
+![{{name}} Preview](preview.png)
+
+## License
+```
+{{ read_file(path="../LICENSE") }}
+```
+{%- else -%}
+SPDX-FileCopyrightText: {{file_copyright_text}}
+
+SPDX-License-Identifier: {{license_identifier}}
+{%- endif -%}
